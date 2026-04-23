@@ -47,6 +47,7 @@ FastUMI_Camera/
 │   └── readimage.py                   # 基于 V4L2 的实时采集脚本
 └── FastUMI_Camera_Calibration-master/ # 相机标定工具
     ├── readme.txt                     # 标定简要说明
+    ├── rgb_intrinsic_SEUCM.txt         # RGB 内参文件（SEUCM）
     ├── demo-api                       # 标定 API 演示程序（可执行文件）
     └── pipe_srv                       # 管道服务端（可执行文件）
 ```
@@ -118,6 +119,7 @@ python readimage.py
 | `demo-api` | 标定 API 演示程序，运行后会通过管道接收指令并输出 RGB 标定参数。 |
 | `pipe_srv` | 管道服务端，接收用户输入的指令并转发给 demo-api。 |
 | `readme.txt` | 标定步骤的简要说明。 |
+| `rgb_intrinsic_SEUCM.txt` | RGB 内参文件（SEUCM）。 |
 
 ### 使用方法
 

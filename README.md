@@ -54,6 +54,7 @@ FastUMI_Camera/
 │   └── readimage.py                   # V4L2-based real-time capture script
 └── FastUMI_Camera_Calibration-master/ # Camera calibration tools
     ├── readme.txt                     # Brief calibration description
+    ├── rgb_intrinsic_SEUCM.txt         # RGB intrinsic parameters (SEUCM)
     ├── demo-api                       # Calibration API demo (executable)
     └── pipe_srv                       # Pipe server (executable)
 ```
@@ -125,6 +126,7 @@ This directory contains utilities for calibrating the FastUMI camera in an **xvs
 | `demo-api`     | Calibration API demo program. It receives commands through a pipe and prints RGB calibration parameters. |
 | `pipe_srv`     | Pipe server that accepts user input and forwards commands to `demo-api`. |
 | `readme.txt`   | Brief description of the calibration steps. |
+| `rgb_intrinsic_SEUCM.txt` | RGB intrinsic parameters file (SEUCM). |
 
 ### 4.4 Usage
 
