@@ -24,7 +24,7 @@ Without the SDK installed, the scripts and parameter/calibration tools in this r
 
 ### 1.3 Installation Overview
 
-- **SDK repository**: <https://github.com/FastUMIData/FastUMI_Hardware_SDK.git>  
+- **SDK repository**: <https://github.com/lumos-open/FastUMI_Hardware_SDK.git>  
 - **Important**: The repository contains complete, detailed installation instructions. This README intentionally does **not** repeat the exact commands. **Always follow the official installation guide in that repository.**
 
 After installation, it is recommended to perform a basic verification:

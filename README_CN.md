@@ -18,7 +18,7 @@ FastUMI Hardware SDK 是 FastUMI 相机官方提供的硬件驱动与接口库�
 
 ### 1.3 安装步骤（简要）
 
-- **SDK 仓库地址**：<https://github.com/FastUMIData/FastUMI_Hardware_SDK.git>  
+- **SDK 仓库地址**：<https://github.com/lumos-open/FastUMI_Hardware_SDK.git>  
 - **重要**：仓库内带有完整安装文档。这里不重复贴具体命令，**请严格按照仓库中安装说明完成安装**。
 
 安装完成后，建议做一次基本验证：
